@@ -1,0 +1,45 @@
+.card-top-container {
+  margin-bottom: 30px;
+  border-radius: 10px;
+  background-color: #ededed;
+  text-align: center;
+  padding: 20px 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-top-container h6 {
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+  
+}
+
+.card-top-container p {
+  color: #585858;
+  font-size: 14px;
+  font-style: italic;
+  text-align: left;
+  padding: 10px 0px;
+}
+
+.card-top-container img {
+  width: 65%;
+  height: auto;
+}
+@media (min-width: 576px) {
+  .card-top-container p {
+    padding: 20px 0 10px 10px;
+    font-size: 12px;
+  }
+  .card-top-container img {
+    width: 90%;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-top-container p {
+    font-size: 14px;
+  }
+}

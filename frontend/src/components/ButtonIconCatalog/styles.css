@@ -1,0 +1,28 @@
+.btn-icon-catalog button {
+  border-radius: 5px;
+  
+}
+
+.btn-icon-catalog h6 {
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.btn-icon-catalog {
+  width: 260px;
+  height: 40px;
+  background-color: #00285f;
+  
+}
+
+@media (min-width: 576px) {
+  .btn-icon-container-catalog {
+    width: 200px;
+  }
+
+  .btn h6 {
+    font-size: 14px;
+  }
+}

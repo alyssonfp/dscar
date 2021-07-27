@@ -1,0 +1,24 @@
+.btn-container-buscar {
+  width: 77px;
+  height: 40px;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #00285f;
+}
+
+.btn-container-buscar h6 {
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 576px) {
+  
+  .btn-container-buscar {
+    width: 174px;
+  }
+}
+
+  
+
+
+
